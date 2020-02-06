@@ -14,3 +14,8 @@ Software Test Engineer with good theoretical knowledge and practical skills incl
 
 ##English level
 **B2 English level**
+
+##Skills
+* Testing
+* Git
+* HTML / CSS
