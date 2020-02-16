@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    background-color: rgb(240, 240, 240);
+}
+
+header {
+    background-color: #707479;
+    border-bottom: 1px solid #707479;
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+    opacity: 1;
+    height: 84px;
+}
+
+header ul {
+    margin: 20px auto;
+    padding: 0 25px;
+    text-align: center;
+    width: 100%
+}
+
+header li {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 20%;
+    margin-right: 30px;
+}
+
+.baseLayout {
+    position: relative;
+    top: 85px;
+}
+
+section {
+    display: inline-block;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(49, 47, 47);
+}
+
+h3 {
+    text-transform: capitalize;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 5px;
+}
+
+p {
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 83, 102);
+}
+
+a:hover {
+    color: rgb(180, 227, 243);
+}
+
+table {
+    width: 100%;
+}
+
+img {
+    border-radius: 100%;
+    border: 3px solid rgb(49, 47, 47);
+    box-shadow: 0 0 7px #666;
+}
+
+#personalCard {
+    width: 35%;
+    background-color: rgb(125, 188, 209);
+    border-left: 10px solid rgb(95, 142, 158);
+    padding-left: 10px;
+}
+
+.photo img {
+    margin: 10px;
+}
+
+.sideBarBottom table {
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.sideBarBottom table td {
+    height: 25px;
+    width: fit-content;
+    margin-left: 1rem;
+}
+
+.sideBarBottom table div {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(49, 47, 47);
+    border-radius: 50%;
+    float: left;
+    margin-right: 3px;
+}
+
+.block {
+    width: 59%;
+    float: right;
+    padding-right: 2em;
+}
+
+.block section {
+    position: relative;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(49, 47, 47);
+    box-shadow: 0 0 3px #666;
+}
+
+#experience {
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(49, 47, 47);
+    box-shadow: 0 0 3px #666;
+}
+
+#experience th {
+    border-bottom: 1px solid rgb(49, 47, 47);
+}
+
+#experience td {
+    min-width: 30%;
+    padding: 10px;
+    text-align: start;
+}
+
+footer {
+    background-color: #707479;
+    border-bottom: 1px solid #707479;
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    opacity: 1;
+    margin-top: 6em;
+    height: auto;
+}
+
+footer h2 {
+    margin-left: 20px;
+}
+
+footer ul {
+    margin: 20px auto;
+    padding: 0 25px;
+    text-align: center;
+    width: 100%
+}
+
+footer li {
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 20%;
+    margin-right: 30px;
+}
+
+footer li:hover {
+    color: rgb(95, 142, 158);
+}
